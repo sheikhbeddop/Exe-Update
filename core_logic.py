@@ -313,12 +313,12 @@ class AimbotController:
         icon_lbl.bind("<ButtonPress-1>", _start_drag)
         icon_lbl.bind("<B1-Motion>", _do_drag)
         
-        title_text = tk.Label(left_brand, text="SCIENTIST [🔥 CLOUD V2.0]", font=("Segoe UI", 10, "bold"), bg="#0A0D14", fg="#F59E0B")
+        title_text = tk.Label(left_brand, text="SCIENTIST [🔥 CLOUD V3.0]", font=("Segoe UI", 10, "bold"), bg="#0A0D14", fg="#F59E0B")
         title_text.pack(side="left")
         title_text.bind("<ButtonPress-1>", _start_drag)
         title_text.bind("<B1-Motion>", _do_drag)
         
-        ver_tag = tk.Label(left_brand, text=" 🚀 AUTO-UPDATED V 2.0 ", font=("Segoe UI", 7, "bold"), bg="#241C07", fg="#00FF66", padx=6, pady=2)
+        ver_tag = tk.Label(left_brand, text=" 🚀 AUTO-UPDATED V 3.0 ", font=("Segoe UI", 7, "bold"), bg="#241C07", fg="#00FF66", padx=6, pady=2)
         ver_tag.pack(side="left", padx=6)
         ver_tag.bind("<ButtonPress-1>", _start_drag)
         ver_tag.bind("<B1-Motion>", _do_drag)
@@ -391,7 +391,7 @@ class AimbotController:
         
         self.inject_btn = CyberButton(
             hero_inner, 
-            text="⚡ INJECT AIMBOT [CLOUD V2.0]", 
+            text="⚡ INJECT AIMBOT [CLOUD V3.0]", 
             command=self.handle_action,
             bg_color="#052414",
             border_color="#00FF66",
@@ -565,8 +565,8 @@ class AimbotController:
             self._update_card_status(self.card_priv, "⚠️ Limited", "#FBBF24")
             self.add_log("WARN", "Not running as Administrator. Privileges may be limited.")
             
-        self.add_log("SUCCESS", "🔥 [CLOUD LIVE AUTO-UPDATE] V2.0 ACTIVE & SYNCED WITH GITHUB!")
-        self.add_log("SUCCESS", "⚡ Real-time remote payload loaded successfully!")
+        self.add_log("SUCCESS", "🔥 [CLOUD LIVE AUTO-UPDATE] V3.0 ACTIVE & SYNCED WITH GITHUB!")
+        self.add_log("SUCCESS", "⚡ Cloud V3.0 remote payload loaded successfully!")
         self.add_log("INFO", "Click 'KEY BIND' to set Aimbot Hotkey")
         self.add_log("INFO", "Click 'NEW MATCH KEY' to set Reset Cache Hotkey")
         self.add_log("INFO", "Press F10 to toggle Streamer Mode")
